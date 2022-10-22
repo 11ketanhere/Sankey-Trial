@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ASSIGNMENT</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+          <div class="login">
+            <div class="login-header">
+                <label for="welcome" class="welcome" id="welcome">Welcome back</label>
+                <label for="Login" class="Login" id="Login">Login to your account</label>
+                
+          <form class="login-form" action="./Redirect.html" onsubmit="return welcome()">
+            <img src="./bg.png" width="800" alt="">
+            <label for=""class="email">Email</label>
+            <input type="text" placeholder="John.snow@gmail.com" class="inputemail" id="uname"/>
+            <label for="" class="pass">Password</label>
+            <input type="password" placeholder="*********" class="inputpass" id="pass"/>
+            <input type="radio" class="check"/>
+            <label for="" class="rem">Remember me</label>
+            
+            <a href="#" type="link" class="forgot">forgot password?</a>
+            <button class="button" type="submit">Login Now</button>
+            
+            <a href="#" class="google"><img src="./iconfinder_Google.png" width="20" height="20" alt="">Or sign in with google</a>
+            <h3 id="h3login"></h3>
+            <p class="message">Do you have an account? <a href="#" type="link">Join free today</a></p>
+            
+          </form>
+        </div>
+      </div>
+</body>
+<script src="./app.js"></script>
+</html>
